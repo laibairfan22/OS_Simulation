@@ -59,6 +59,6 @@ Kernel mode for accessing hardware resources and managing processes.
 - Multilevel Queue
   
 ## Types of Tasks
-Full-Time Response Tasks
-Background Processes
-Automated Tasks (e.g., Clock)
+- Full-Time Response Tasks
+- Background Processes
+- Automated Tasks (e.g., Clock)
