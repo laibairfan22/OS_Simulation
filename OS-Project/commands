@@ -1,0 +1,15 @@
+goback cd ..
+open cd 
+create touch 
+newfolder mkdir 
+delete rm 
+loc pwd
+delfolder rmdir 
+plist cat ~/Desktop/OS-Project/processes
+clear clear
+list ls
+move mv
+copy cp
+date date
+show cat
+help cat cmd

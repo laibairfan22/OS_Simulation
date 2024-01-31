@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="window">
+    <property name="can_focus">False</property>
+    <property name="resizable">False</property>
+    <property name="type_hint">dialog</property>
+    <property name="deletable">False</property>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="fixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="image">
+            <property name="width_request">1914</property>
+            <property name="height_request">1027</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/wallpaper.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="shutdown">
+            <property name="label"> </property>
+            <property name="width_request">82</property>
+            <property name="height_request">74</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="focus_on_click">False</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <property name="relief">none</property>
+            <signal name="clicked" handler="quit_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">1815</property>
+            <property name="y">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="shutdown_pic">
+            <property name="width_request">50</property>
+            <property name="height_request">50</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/shutdown (50 × 50px).png</property>
+          </object>
+          <packing>
+            <property name="x">1831</property>
+            <property name="y">22</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="cal">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/1.png</property>
+          </object>
+          <packing>
+            <property name="x">18</property>
+            <property name="y">18</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="cal_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="cal_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">22</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="game">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/2.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">122</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="game_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="game_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">122</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="conversion">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/3.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">222</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="conversion_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="conversion_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">222</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="song">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/4.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">322</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="song_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="song_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">322</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="sys_time">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/5.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">422</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="sys_time_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="sys_time_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">422</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="pass">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/6.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">522</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="pass_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="pass_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">522</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="fac">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/7.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">622</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="fac_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="fac_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">622</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="palindrome">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/8.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">722</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="palindrome_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="palindrome_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">722</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="prime">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/9.png</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">822</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="prime_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="prime_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">822</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="notepad">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/10.png</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">22</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="notepad_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="notepad_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">22</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="bubble">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/12.png</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">122</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="bubble_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="bubble_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">122</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="armstrong">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/13.png</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">222</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="armstrong_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="armstrong_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">222</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="fib">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/14.png</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">322</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="fib_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="fib_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">322</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="terminal">
+            <property name="width_request">100</property>
+            <property name="height_request">90</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">img/icons/11.png</property>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">422</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="terminal_button">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="opacity">0</property>
+            <signal name="clicked" handler="terminal_pressed" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">120</property>
+            <property name="y">422</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="Clock_Widget">
+            <property name="width_request">132</property>
+            <property name="height_request">23</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">12:50:25 PM</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 14"/>
+              <attribute name="foreground" value="#000000000000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">924</property>
+            <property name="y">989</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
