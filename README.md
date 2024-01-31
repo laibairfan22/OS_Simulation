@@ -57,7 +57,8 @@ Kernel mode for accessing hardware resources and managing processes.
 - EXEC Commands
 - Scheduling (Mutual Exclusion, Semaphore, Condition Variable)
 - Multilevel Queue
-Types of Tasks
+  
+## Types of Tasks
 Full-Time Response Tasks
 Background Processes
 Automated Tasks (e.g., Clock)
